@@ -41,5 +41,5 @@ legend("topright",lwd = 1,col = c("black","red","blue"),legend = c("Sub_metering
 
 with(consumerdata2,plot(Time,Voltage,ylab = "Voltage",xlab = "datetime",type = "l"))
 with(consumerdata2,plot(Time,Global_reactive_power,xlab = "datetime",type = "l"))
-dev.copy(png,file = "unnamed-chunk-5.png")
+dev.copy(png,file = "plot4.png")
 dev.off()

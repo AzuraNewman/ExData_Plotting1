@@ -28,5 +28,5 @@ setwd("C:/Coursera data/Exploring Data/Week1/Analysis/figure")
 ##plot 2
 
 with(consumerdata2,plot(Time,Global_active_power,ylab = "Global Active Power (kilowatts)",xlab = "",type = "l"))
-dev.copy(png,file = "unnamed-chunk-3.png")
+dev.copy(png,file = "plot2.png")
 dev.off()
